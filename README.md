@@ -1,16 +1,7 @@
 # flutter_qr
-
 Flutter QR Generator is a mobile application that allows users to generate QR codes by simply entering a website URL. Users can also view their generated QR code history, share and download QR codes. The app features a beautiful bottom navigation and a nice background color.
 
-## Getting Started
+<img  src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhFLimtGoUBs-OULk0g_Hv_3yoM8pBZEI8pro2Fn3I0VwPiTd03L6mQ5nSdyLS4KCuFXKIzQQXLSDez7TwFXA3-rdvmKDPmgpZyfs7gX6uomQ8YgAdVorHT36MYHaOvlGal9DR_4LkW-iVVLbetlWdYxObPCKxfNtenlIJRP7ZqOrVf4S-3cXG8ffI/s16000/boltuix%20qr.jpg">
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Read more:
+https://www.boltuix.com/2023/03/create-and-share-qr-codes-quickly-and.html
