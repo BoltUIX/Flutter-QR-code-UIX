@@ -22,9 +22,9 @@ class MyApp extends StatelessWidget {
       ),
       initialRoute: Routes.homeScreen,
       routes: {
+        //Routes.homeScreen: (context) =>   QRGeneratorShare(url: 'www.boltuix.com',),
        // Routes.homeScreen: (context) =>  const QRGenerator(url: 'www.boltuix.com',),
-        Routes.homeScreen: (context) =>   QRGeneratorShare(url: 'www.boltuix.com',),
-       //Routes.homeScreen: (context) => const HomePage(),
+           Routes.homeScreen: (context) => const HomePage(),
         Routes.createQrWebsite: (context) => const CreateWebQrScreen(),
         Routes.recentsScreen: (context) => const RecentsScreen(),
       },

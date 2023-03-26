@@ -35,61 +35,64 @@ class CreateScanScreen extends StatelessWidget {
           ),
         ],
       ),
-      body: Container(
-        padding: const EdgeInsets.symmetric(
-          horizontal: 16,
-        ),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            const Text(
-              "Choose ",
-              style: TextStyle(
-                fontFamily: 'poppins_bold',
-                fontSize: 24,
-                color: Color(0xFF6565FF),
+      body:
+      SingleChildScrollView(
+        child: Container(
+          padding: const EdgeInsets.symmetric(
+            horizontal: 16,
+          ),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              const Text(
+                "Choose ",
+                style: TextStyle(
+                  fontFamily: 'poppins_bold',
+                  fontSize: 24,
+                  color: Color(0xFF6565FF),
+                ),
               ),
-            ),
-            const Text(
-              "your destination!",
-              style: TextStyle(
-                fontFamily: 'poppins_bold',
-                fontSize: 24,
+              const Text(
+                "your destination!",
+                style: TextStyle(
+                  fontFamily: 'poppins_bold',
+                  fontSize: 24,
+                ),
               ),
-            ),
-            const Gap(8),
-            const Text(
-              "Scan QR Code",
-              style: TextStyle(
-                fontFamily: 'poppins_regular',
-                fontSize: 16,
+              const Gap(8),
+              const Text(
+                "Scan QR Code",
+                style: TextStyle(
+                  fontFamily: 'poppins_regular',
+                  fontSize: 16,
+                ),
               ),
-            ),
-            const Gap(32),
-            DestinationWidget(
-              title: 'Website',
-              icon: EvaIcons.browserOutline,
-              color: const Color(0xFF68A2F4),
-              onTap: () => Navigator.pushNamed(
-                context,
-                Routes.createQrWebsite,
+              const Gap(32),
+              DestinationWidget(
+                title: 'Website',
+                icon: EvaIcons.browserOutline,
+                color: const Color(0xFF68A2F4),
+                onTap: () => Navigator.pushNamed(
+                  context,
+                  Routes.createQrWebsite,
+                ),
               ),
-            ),
-            const Gap(16),
-            DestinationWidget(
-              title: 'Email',
-              icon: EvaIcons.emailOutline,
-              color: const Color(0xFF2A9FEE),
-              onTap: () {},
-            ),
-            const Gap(16),
-            DestinationWidget(
-              title: 'Wifi',
-              icon: EvaIcons.wifi,
-              color: const Color(0xFF9E72E4),
-              onTap: () {},
-            ),
-          ],
+              const Gap(16),
+              DestinationWidget(
+                title: 'Email',
+                icon: EvaIcons.emailOutline,
+                color: const Color(0xFF2A9FEE),
+                onTap: () {},
+              ),
+              const Gap(16),
+              DestinationWidget(
+                title: 'Wifi',
+                icon: EvaIcons.wifi,
+                color: const Color(0xFF9E72E4),
+                onTap: () {},
+              ),
+            ],
+          ),
         ),
       ),
     );
